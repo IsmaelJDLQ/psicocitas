@@ -61,6 +61,7 @@ export default function Register() {
                 email: email.trim(),
                 password,
                 options: {
+                    emailRedirectTo: "https://psicocitas.vercel.app/login",
                     data: {
                         nombre: nombre.trim(),
                         rol,
